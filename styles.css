@@ -19,11 +19,17 @@ body{
     background-color: rgb(37, 36, 36);
 }
 .cat-icon{
-    animation-name: example;
+    animation-name: move;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-@keyframes example {
+p{
+    margin-bottom: 0;
+    animation: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
     0%   {transform: scale(1);}
     25%  {transform: scale(0.8);}
     50%  {transform: scale(1);}
