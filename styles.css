@@ -29,6 +29,20 @@ p{
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+.showcase{
+    width: 90%;
+    
+}
+.catImg{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.catImg img{
+    margin-top: 1rem;
+}
 @keyframes move {
     0%   {transform: scale(1);}
     25%  {transform: scale(0.8);}
@@ -36,3 +50,10 @@ p{
     75%  {transform: scale(0.8);}
     100% {transform: scale(1);}
   }
+
+@media screen and (min-width:1024px) {
+    .cat-icon{
+        width: 10%;
+    }
+    
+}
